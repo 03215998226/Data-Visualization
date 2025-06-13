@@ -29,7 +29,7 @@ df['color'] = df.apply(lambda row: f"#{row['R']:02x}{row['G']:02x}{row['B']:02x}
 
 # 🟩 Title
 st.title("🌿 Dutch Postcode Green Coverage Dashboard")
-st.markdown("Explore trees, bushes, and grass coverage across Dutch postcodes.")
+st.markdown("Explore trees, bushes, and grass coverage across Dutch postcodes. This interactive dashboard visualizes the distribution of trees, bushes, and grass across Dutch postcodes using color-based insights.")
 
 # 🔍 Postcode selection
 selected_postcode = st.selectbox("Select a Postcode", sorted(df['postcode'].unique()))
